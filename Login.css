@@ -1,0 +1,161 @@
+.login-split-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+.logo{
+  text-align: center;
+}
+
+
+.login-left {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background: #f9fafc;
+  padding: 40px;
+  width: 350px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+  margin-bottom: 6px;
+  padding-left: 45px;
+}
+
+.login-card p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-card input[type="email"],
+.login-card input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.or {
+  text-align: center;
+  font-size: 13px;
+  margin: 14px 0;
+}
+
+.socials img {
+  width: 32px;
+  padding-left: 37px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.signup-text {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 14px;
+}
+
+
+.login-right {
+  flex: 1;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-box {
+  position: absolute;
+  top: 20%;
+  left: 50px;
+  background: white;
+  color: #0f172a;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.auth-box {
+  background: white;
+  color: #0f172a;
+  padding: 28px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.auth-box input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.otp-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.otp-row input {
+  width: 100%;
+  height: 48px;
+  
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-btn.dark {
+  background-color: #3b82f6;
+  color: white;
+}
+
+
+.profile-floating {
+  position: absolute;
+  top: 150px;
+  right: 40px;
+  background: white;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.profile-floating img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}

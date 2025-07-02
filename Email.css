@@ -1,0 +1,134 @@
+.auth-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Left Panel */
+.checkemail-panel {
+  width: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-card {
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+.email-icon {
+  font-size: 32px;
+  background: #eaeaea;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  margin: 12px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.back-login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f6df5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.resend {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #333;
+}
+
+/* Right Panel */
+.preview-panel {
+  width: 50%;
+  background: linear-gradient(to bottom right, #122647, #090e23);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-code {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.login-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.otp-box input {
+  width: 100%;
+  padding: 10px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #4f6df5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Profile card */
+.profile-card {
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.profile-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
