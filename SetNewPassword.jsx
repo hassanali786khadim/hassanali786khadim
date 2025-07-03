@@ -1,10 +1,10 @@
 import React from 'react';
 import './SetNewPassword.css';
+import { Link } from 'react-router-dom';
 
 const SetNewPassword = () => {
   return (
     <div className="auth-container">
-      {/* Left Side */}
       <div className="set-password-panel">
         <div className="password-card">
           <div className="icon">🔑</div>
@@ -20,13 +20,12 @@ const SetNewPassword = () => {
 
             <button className="reset-btn" type="submit">Reset password</button>
             <p className="back-login">
-              <a href="#">Back to login</a>
+              <Link to="/">Back to login</Link>
             </p>
           </form>
         </div>
       </div>
 
-      {/* Right Side */}
       <div className="preview-panel">
         <div className="floating-code">
           📧 Your login code is <strong>XJH4</strong>
