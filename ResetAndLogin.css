@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-panel {
+  background: #f8f9fa;
+}
+
+.right-panel {
+  background: #0b0f29;
+  color: white;
+  position: relative;
+}
+
+.card, .login-card {
+  background: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.icon-success {
+  font-size: 2rem;
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.login-btn {
+  background: #4f6df5;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.login-code {
+  background: white;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.login-card input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otp-inputs input {
+  width: 20%;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  padding: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.profile-info h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #555;
+}
